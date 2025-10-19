@@ -17,3 +17,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
         console.log(`Background color changed to: ${rgbColor}`);
     }
+
+    //Formed event listeners for sliders
+    redSlider.addEventListener('input', updateBackgroundColor);
+    greenSlider.addEventListener('input', updateBackgroundColor);
+    blueSlider.addEventListener('input', updateBackgroundColor);
